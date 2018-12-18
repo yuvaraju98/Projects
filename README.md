@@ -3,4 +3,5 @@ Web Related Projects
 - CSS
 - Bootstrap
 - Php
-- Sql
+- MySQL
+- JavaScript
