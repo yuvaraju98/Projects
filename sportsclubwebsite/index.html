@@ -1,0 +1,840 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+       <!-- Latest compiled and minified CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+       <!-- jQuery library -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+       <!-- Latest compiled JavaScript -->
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+       <style>
+
+
+       .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:white;
+    }
+
+    .navbar li {
+        float:right;
+    }
+
+    .navbar li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    .bo li a:hover {
+        border-bottom:5px solid;
+        border-color:red;
+    }
+
+
+    /* slideshow--------------*/
+    * {box-sizing:border-box}
+
+    * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+
+
+
+
+    .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+    .mySlides {display: none;
+        color:white;
+        font-weight:bold;
+
+
+    }
+
+    .mySlides h1,h2{
+        font-weight: bold;
+
+
+
+    }
+
+
+
+    .mySlides2 {display: none;
+        color:black;
+        font-weight:bold;
+
+
+    }
+
+    .mySlides2 h1,h2{
+        font-weight: bold;
+
+
+
+
+    }
+
+
+    /* Slideshow container */
+    .slideshow-container {
+    	background-image:  url('main.jpg.jpg');
+        background-size: cover;
+        position: relative;
+
+    }
+
+   /* Slideshow container */
+    .slideshow-container1 {
+        ;
+        background-size: cover;
+        position: relative;
+
+    }
+
+       .text2 {
+      color: white;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 10px;
+      width: 100%;
+      text-align: left;
+  }
+
+  .text2 h1{
+    font-size:40px;
+}
+
+
+    /* Caption text */
+    .text {
+      color: white;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 300px;
+      width: 100%;
+      text-align: left;
+  }
+
+  .text h1{
+    font-size:50px;
+}
+
+.slideshow-container a{
+padding-left: 8px 12px;
+      position: absolute;
+      top: 500px;
+      left:250px;
+      clear: left;
+      width: auto;
+      text-align: left;
+
+}
+
+/* Number text (1/3 etc) */
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot2 {
+   opacity:  0;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 4.9s;
+}
+
+
+
+
+.aboutus{
+    background-color:white;
+    margin-left: 5px;
+}
+
+
+.details .h2{
+    color:white;}
+
+
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+  }
+
+  @keyframes fade {
+      from {opacity: .8} 
+      to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+  }
+
+
+  .parallax {
+    /* The image used */
+    background-image: url("1.jpg");
+
+
+    /* Set a specific height */
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h2{
+    font-weight:normal;
+}
+
+.Services{
+
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("wal3.jpg");
+
+    /* Set a specific height */
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.gallery img {
+    width:100%;
+    height:300px;
+    padding:10px;
+    padding-left: 5px;
+   
+}
+.gallery p{
+    color:red;
+}
+
+.social {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.social img{
+
+    width:40%;
+    max-height:40%;
+    align:left;
+}
+
+.memebers img{
+    width:270px;
+    filter:grayscale();
+    height:300px;
+}
+
+.memebers p{
+    color:red;
+}
+
+.memebers h2 {
+    color:black;
+    font-weight:bold;
+}
+.last p,a{
+color:#A9A9A9;
+
+}
+
+.last a:hover{
+color:white;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+    <div class="container1" ><!--d-->
+      <div class="row" style="position:fixed;width:101%;top:0px;left:0px;z-index:1;background-color: white;margin-left: 2px;"><!--c-->
+        <div class="col-md-6" style="background-color: white;"><h1> BIT Sports Club</h1>
+        </div>
+        <div class="col-md-6"><!--a-->
+            <div class="navbar" ><!--b-->
+               <ul>
+
+                 <div class="bo"><li><a href="#Contact">Contact</a></li></div>
+                 <div class="bo"> <li><a href="#Services">Games</a></li></div>
+                 <div class="bo"> <li><a href="#members">Team</a></li></div>
+                 <div class="bo"><li><a href="#aboutus">About</a></li></div>
+                 <div class="bo"><li><a href=index.html>Home</a></li></div>
+
+             </ul>
+         </div><!--b-->
+     </div><!--a-->
+ </div><!--c-->
+</div><!--d-->
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="row" ><!--c-->
+   <!-- Slideshow container -->
+   <div class="col-md-12" ><!--a-->
+    <div class="slideshow-container" >
+        <br><br>
+        <br><br>
+        <br><br>
+        <a href="register.html" class="button">Register</a>
+
+        <div class="row" ><!--ca-->
+           <div class="col-md-2"></div>
+           <div class="col-md-10"><!--cb-->
+            <div class="mySlides fade">
+                <div class="text">
+                  <h2>WELCOME TO SPORTS CLUB OF BIT</h2>
+              </div>
+          </div>
+      </div><!--cb-->
+      <div class="col-md-2"></div>
+      <div class="col-md-10"><!--cb-->
+        <div class="mySlides fade">
+           <div class="text">
+              <h2>Find Your path, Be Unstoppable</h2>
+           </div>
+      </div>
+  </div><!--cb-->
+  <div class="col-md-2"></div>
+  <div class="col-md-10"><!--cb-->
+    <div class="mySlides fade">
+       <div class="text">
+          <h2>Get Amped Up For A Change</h2>
+     </div>
+  </div>
+</div><!--cb-->
+</div ><!--ca-->
+
+<br><br><br><br><br><br><br><br>
+<br><br>
+<br><br><br><br>
+<br><br>
+<br><br>
+<br><br><br><br>
+<br><br><br><br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div><!--sidesow cotainer-->
+</div><!--a-->
+</div><!--c-->
+
+
+
+
+<!--about us -->
+<div class="aboutus" id="aboutus" ><!--about-->
+    <br><br>
+    <div class="row"><!--a-->
+        <div class="col-md-6"><!--b-->
+            <h1>About Us </h1>
+            <br><br>
+            <img src="foot.jpg" style="max-width: 100%;"/>
+        </div><!--b-->
+
+        <div class="col-md-6"><!--b-->
+            <br>
+            <h2>What we do</h2>
+            <p>BIT believes in the all-round development of its students in all fields, and sports are no exception. Our college teams have participated in various University inter-collegiate competitions such as volleyball, cricket, table tennis etc. Our college cricket team had actively taken part in tournaments with some of our players going on to represent the University at National level. The institute also organizes the The Annual Athletic Meet for students and its staff members in various sports such as cricket, football, volleyball, kabaddi, track events, carrom, chess, table tennis and shot-put. Our athletic teams have excelled in the recent university level tournaments winning medals in various events like the relay event. The college sports room is equipped with carrom boards, table tennis tables and chessboards. 
+            </p>
+        </div><!--b-->
+    </div><!--a-->
+
+</div><!--about-->
+
+
+
+<div class="parallax"  style="color:white;"><!--det-->
+ <br>
+ <br>
+ <br>
+ <div class="row"><!--a-->
+
+    <div class="col-md-2"></div>
+    <div class="col-md-3"><h2>Total Participants</h2></div>
+    <div class="col-md-3"><h2>Instructors</h2></div>
+    <div class="col-md-3"><h2>Tournaments</h2></div>
+    <div class="col-md-1"></div>
+
+
+</div><!--a-->
+<div class="row"><!--a-->
+
+    <div class="col-md-2"></div>
+    <div class="col-md-3"><h2 >962</h2></div>
+    <div class="col-md-3"><h2>4</h2></div>
+    <div class="col-md-3"><h2>72</h2></div>
+    <div class="col-md-1"></div>
+
+</div><!--a-->
+<br>
+
+
+</div><!--det-->
+
+
+
+
+<div class="Services" id="Services"><!--ser-->
+   <br>
+   <div class="row"><!--a-->
+    <div class="col-md-1"><!--6--></div>
+    <div class="col-md-5"><!--6-->
+        <div class="row"><!--ai-->
+            <div class="col-md-12"><!--12--> <h1>Sports</h1></div><!--12-->
+            <br>
+            <div class="col-md-12"><!--12--><h3>Cricket</h3></div><!--12-->
+            <div class="col-md-12"><!--12-->This club intakes fresh talents in the field of cricket. The inter-college competitions are great exposure to the students to showcase their talents</div><!--12-->
+            <div class="col-md-12"><!--12--><h3>Kabaddi</h3></div><!--12-->
+            <div class="col-md-12"><!--12-->This club aims at encouraging young talents to play Kabaddi. The club organises various Kabaddi events in college to encourage student participation</div><!--12-->
+            <div class="col-md-12"><!--12--><h3>Football</h3></div><!--12-->
+            <div class="col-md-12"><!--12-->This club also aims at encouraging young talents by conducting various football events within college and then preparing the best talent for the interschool competitions.</div><!--12-->
+            <div class="col-md-12"><!--12--><h3>Volley Ball</h3></div><!--12-->
+            <div class="col-md-12"><!--12-->This club encourages girls to participate and bring in trophies to the college. This club has been successful in bringing up various fresh talents.</div><!--12-->
+        </div><!--ai-->
+    </div><!--6-->
+
+    <div class="col-md-6"><!--6-->
+        <div class="row"><!--ai-->
+            <div class="col-md-12"><!--12--> <br><br><br><br><br><br><div class="col-md-3"></div>
+<div class="col-md-6"><img src="football.jpg"/></div>
+            </div><!--12-->
+
+        </div><!--ai-->
+
+
+    </div><!--6-->
+
+
+</div><!--a--><br>
+<br>
+<br>
+</div><!--ser-->
+<!--soia;-->
+<div class="social">
+    <br>
+    <h2 align="center">Social Links</h2>
+    <br>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3 col-xs-6">
+          <a href="you.png" target="_blank">
+              <img src="fb.png" alt="Fjords" >
+          </a>
+      </div>
+
+
+      <div class="col-md-3 col-xs-6">
+          <a href="tw.png" target="_blank">
+              <img src="tw.png" alt="twitter" >
+          </a>
+      </div>
+
+
+      <div class="col-md-3 col-xs-6">
+        <a href="you.png" target="_blank">
+          <img src="you.png" alt="Fjords" >
+
+      </a>
+  </div>
+
+  <div class="col-md-2 col-xs-6">
+    <a href="insta.png" target="_blank">
+      <img src="insta.png" alt="twitter" >
+  </a>
+</div>
+</div>
+<br><br>
+</div>
+
+
+<!--social end-->
+
+
+<!---input here-->
+<div class="memebers" id="members"><!--mem--><br><br><br>
+    <div class="row"><!--row-->
+        <div class="col-md-12"><center ><p>Amazing People</p><p><h2>Our Team</h2></p></center></div>
+    </div><!--row--><br><br><br>
+    <div class="row"><!--row-->
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+           <img src="person1.jpg"  />
+       </div>
+       <div class="col-md-3"> <p><br><br><br><br><br>President </p><p><h2>Shyam</h2> </p> </div>
+        <div class="col-md-3"></div>
+    </div><!--row-->
+
+    <br>
+    <div class="row"><!--row-->
+        <div class="col-md-3"></div>
+        <div class="col-md-3"> <p><br><br><br><br><br>Manager</p><p><h2>Likhith</h2>  </div>
+            <div class="col-md-3">
+
+               <img src="person2.jpg"  />
+           </div>
+
+           <div class="col-md-3"></div>
+       </div><!--row-->
+       <br>
+       <div class="row"><!--row-->
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+           <img src="person.jpg"  />
+       </div>
+       <div class="col-md-3"> <p><br><br><br><br><br>Coach</p><p><h2>Vinit</h2>  </div>
+        <div class="col-md-3"></div>
+    </div><!--row-->
+
+    <br>
+    
+    <div class="row"><!--row-->
+        <div class="col-md-3"></div>
+        <div class="col-md-3"> <p><br><br><br><br><br>Selector</p><p><h2>Anand</h2>  </div>
+            <div class="col-md-3">
+
+               <img src="p3.jpg"  />
+           </div>
+
+           <div class="col-md-3"></div>
+       </div><!--row-->
+
+<br>
+   </div><!--mem-->
+
+   <!--who said what-->
+
+
+
+  
+<div class="row" ><!--c-->
+   <!-- Slideshow container -->
+   <div class="col-md-12" ><!--a-->
+    <div class="slideshow-container2 parallax2" >
+        <br><br>
+        <br><br>
+        <br><br>
+
+        <div class="row" ><!--ca-->
+           <div class="col-md-1"></div>
+           <div class="col-md-11"><!--cb-->
+            <div class="mySlides2 fade">
+                <div class="text2">
+                  <h1>I want to be the best, it’s not about the ranking, it’s about being consistent</h1>
+              -Naina Nehwal</div>
+          </div>
+      </div><!--cb-->
+      <div class="col-md-1"></div>
+      <div class="col-md-11"><!--cb-->
+        <div class="mySlides2 fade">
+           <div class="text2">
+              <h1>Self -belief and hard work will always earn you success </h1>
+          -Virat Kohli</div>
+      </div>
+  </div><!--cb-->
+  <div class="col-md-1"></div>
+  <div class="col-md-11"><!--cb-->
+    <div class="mySlides2 fade">
+       <div class="text2">
+          <h1> “Winning isn't everything, it's the only thing.”</h1>
+      -Vince Lombardi</div>
+  </div>
+</div><!--cb-->
+</div ><!--ca-->
+
+<br><br><br><br><br><br><br><br>
+<br><br>
+<br><br><br><br>
+<br><br>
+<br><br>
+<br><br><br><br>
+<br><br><br><br>
+<div style="text-align:center">
+  <span class="dot2"></span> 
+  <span class="dot2"></span> 
+  <span class="dot2"></span> 
+</div>
+</div><!--sidesow cotainer-->
+</div><!--a-->
+</div><!--c-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--who said what-->
+
+
+
+
+
+<div class="gallery" id="gallery"><!--gallery-->
+
+    <div class="row"><!--a-->
+        <br>
+        <br>
+        <center><p>Have a look!!</p><h2>Our gallery</h2></center>>
+    </div><!--a-->
+    <br>
+    <br>
+        <div class="row"><!--a-->
+<div class="col-md-1"></div>
+        <div class="col-md-3">
+       <a href="gal1.jpg"> <img src="gal1.jpg" /></a></div>   
+       <div class="col-md-4">
+       <a href="gal1.jpeg"> <img src="gal5.jpg" /></a></div>  
+        <div class="col-md-3">
+       <a href="gal2.jpg"> <img src="gal2.jpg" /></a></div>
+      <div class="col-md-1"></div>
+
+    </div><!--a-->
+
+        <div class="row"><!--a-->
+<div class="col-md-1"></div>
+        <div class="col-md-3">
+       <a href="gal3.jpg"> <img src="gal3.jpg" /></a></div>   
+       <div class="col-md-4">
+       <a href="gal4.jpeg"> <img src="gal4.jpg" /></a></div>  
+        <div class="col-md-3">
+       <a href="gal5.jpg"> <img src="gal1.jpeg" /></a></div>
+
+     
+
+       
+
+<div class="col-md-1"></div>
+
+    </div><!--a-->
+
+  
+
+
+
+    <br><br>
+  
+
+    <br>
+
+</div><!--galeryends-->
+
+
+
+
+
+
+
+<!--last-->
+<div class="container-fluid" id="Contact" style="color:   #A9A9A9;">
+
+ <div class="row" >    
+  <div class="col-xs-12"  style="width:100%; background-color:black;opacity: 0.9;">
+      <h3 color:white> Write to us...</h3>
+      <div class="row" >    
+        <div class="col-md-4 col-xs-12"  >
+
+            
+              <form method="post" action="review.php">
+                 <div class="col-md-6 col-xs-12"  >
+                <label for="Name">Name:</label>
+                <input type="text" class="form-control" id="Name" name="Name">
+           
+                <label for="email">E-mail:</label>
+                <input type="text" class="form-control" id="email" name="email">
+              </div>
+               <div class="col-md-6 col-xs-12"  >
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment" name="comment"></textarea><br>
+
+ 
+                <input type="submit" name="submit" value="review" class="btn btn-primary btn-block" >
+            </div>
+          </form>
+
+        </div>
+     
+        <div class="col-md-3 "  > <center> <img src="logo.png"style="width:120px; height:120px;margin-top:5%;margin-left: 15%;"></center>
+        </div>
+        <div class="col-md-2 last"  ><br><br>
+          <p><a href="#">Home</a></p>
+          <p> <a href="#Services">Games</a></p>
+                <p> <a href="#members">Team</a></p>
+             <p><a href="#Contact">Contact</a></p>
+                
+                 <p><a href="#aboutus">About</a></p>
+                 
+        </div>
+
+        <div class="col-md-3 col-xs-12" style="margin-top:3%;" ><p align=center><b>Bangalore Institute Of Technology</b><br>
+            K.R. ROAD , V V PURAM<br>
+            BANGALORE-560004, INDIA<br>
+            Email:- principalbit4@gmail.com<br>
+            Phone : +91-080-26615865 , 26613237<br>
+            Fax : +91-080-22426796<br></p>
+
+        </div>
+    </div ><!--row-->
+
+    <div class="row" ><hr>   <p align=center >Bangalore Institue of Technology</p> <div class="col-xs-12" >
+    </div></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var slideIndex = 0;
+    showSlides();
+    showSlides2();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+
+        for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";  
+     }
+     slideIndex++;
+     if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+
+   function showSlides2() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides2");
+        var dots = document.getElementsByClassName("dot2");
+        for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";  
+     }
+     slideIndex++;
+     if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides2, 5000); // Change image every 2 seconds
+    }
+
+
+</script>
+
+
+
+</body>
+</html>  

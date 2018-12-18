@@ -1,0 +1,139 @@
+    <!DOCTYPE html>
+    <html>
+    <head></head>
+
+<style>
+
+
+body {
+  margin:0;
+  font-family:arial,tahoma,sans-serif;
+  font-size:12px;
+  background-image:url('walforrej.jpg');
+  background-size: cover;
+}
+
+form {
+  margin-left: 5%;
+  padding:30px;
+  width:400px;
+  height:auto;
+  overflow:hidden;
+  background:  transparent;
+    border-radius:10px;
+}
+
+form label {
+  font-size:14px;
+  color:white;
+  cursor:pointer;
+  font-weight: bold;
+}
+
+form label,
+form input {
+  float:left;
+  clear:both;
+}
+
+form input {
+  margin:15px 0;
+  padding:10px 4px;
+  width:100%;
+  outline:none;
+  border:1px solid #bbb;
+  border-radius:20px;
+  display:inline-block;
+
+}
+
+form input[type=text]:focus,
+form input[type="Branch"]:focus {
+  border-color:cornflowerblue;
+}
+
+input[type=submit] {
+  padding:15px 50px;
+  width:auto;
+  background:#1abc9c;
+  border:none;
+  color:white;
+  cursor:pointer;
+  display:inline-block;
+  float:right;
+  clear:right;}
+ 
+
+input[type=submit]:hover {
+  opacity:0.8;
+}
+
+input[type="submit"]:active {
+  opacity:0.4;
+}
+
+#logo {
+  margin:0 auto;
+  width:200px;
+  font-family:'Lily Script One', cursive;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+  color:white;
+ 
+}
+
+
+</style>
+
+
+
+
+
+    <body>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form method="post" action="insert.php">
+
+  <h4 id="logo">Register</h4>
+
+  <label for="username">Name</label>
+  <input type="text" id="username" name="username" placeholder="Type in your Name.." />
+
+  <label for="Branch">Branch</label>
+  <input type="Branch" id="Branch" name="Branch" placeholder="Enter your Branch.."  />
+
+    <label for="USN">USN</label>
+  <input type="USN" id="USN" name="USN" placeholder="Enter your USN.."  />
+
+
+    <label for="Phone">Phone</label>
+  <input type="phone" id="phone" name="phone" placeholder="Enter your contact number.."  />
+
+    <label for="Sport">Sport</label>
+ <div class="custom-select" style="clear:left;">
+  <select name="Sport">
+    <option value="0">Select sports:</option>
+    <option value="Cricket">Cricket</option>
+    <option value="Chess">Kabaddi</option>
+    <option value="Football">Football</option>
+    <option value="Batminton">Vlley Ball</option>
+    
+  </select>
+</div>
+
+
+  
+
+  <input type="submit" name="submit" value="Register" />
+
+</form>
+      
+    </body>
+    </html>
